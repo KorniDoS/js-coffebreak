@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <meta name="author" content="Mirzac Mihai">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>CoffeBreak - InfoWorld</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <img loading="eager" class="header-img" src="./assets/header.jpg" alt="Coffe shop" />
+        <div class="container d-flex-column">
+            <h1 class="logo"><a id="coffe-break-title" href="./index.html">CoffeeBreak</a></h1>
+            <form action="" class="search-form" method="GET">
+                <input id="search_input" type="search" name="product_id" placeholder="Search your dream coffee...">
+                <input id="submit-input" class="button" type="submit" name="search" value="Search">
+            </form>
+        </div>
+
+        <div class="admin">
+            <i class="ri-admin-line"></i><a href="./admin-page.html">Admin page</a>
+        </div>
+    </header>
+    <main class="secondary-background">
+
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="options">
+                    <h2>Products</h2>
+                    <label for="filters">
+                        Order by:
+                    </label>
+                    <select id="filters" name="filters">
+                        <option value="---" selected="true">---</option>
+                        <option value="Name">Name</option>
+                        <option value="Price">Price</option>
+                        <option value="Quantity">Quantity</option>
+                        <option value="Rating">Rating</option>
+                        <option value="Comments">Comments</option>
+                    </select>
+                </div>
+                <div class="cart">
+                    <!--<details>
+                        <summary class="list-title list-wrapper" data-content="" title="Click to see your coffees">
+                            <i class="ri-list-unordered"></i>
+                            <span class="list-name" contenteditable="true"></span>
+                        </summary>
+        
+                        <ul class="list-items">
+
+                        </ul>
+
+                        <form action="">
+                            <input class="button save-list-items-btn" type="submit" value="Save list"></input>
+                        </form>
+                    </details>
+
+                -->
+                    <div class="list-wrapper" data-content="" title="Click to see your coffees">
+
+                        <i class="ri-list-unordered"></i>
+                        <h2 class="list-title list-name" contenteditable="true"></h2>
+                    </div>
+                    <div class="hidden ul-container">
+                        <ul class="list-items">
+
+                        </ul>
+
+                        <form action="">
+                            <input class="button save-list-items-btn" type="submit" value="Save list"></input>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content grid-container--fill">
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="d-flex-column">
+        <div class="logo">
+            <h5>CoffeeBreak</h5>
+        </div>
+        <div class="attribution">
+            <p>Created by <a href="https://github.com/KorniDoS">Mirzac Mihai</a></p>
+        </div>
+    </footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

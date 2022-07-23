@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <font id="remixicon" horiz-adv-x="1200">
+    <font-face font-family="remixicon"
+        units-per-em="1200" ascent="1200"
+        descent="0" />
+    <missing-glyph horiz-adv-x="0" /><glyph glyph-name="star-line"
+            unicode="&#xF18B;"
+            horiz-adv-x="1200" d="M600 286.9999999999999L247.35 89.5999999999999L326.1 486L29.35 760.4000000000001L430.7 808L600 1175L769.3 808L1170.6499999999999 760.4000000000001L873.8999999999999 486L952.6499999999997 89.5999999999999L600 286.9999999999999zM600 401.5999999999999L812.35 282.7499999999999L764.9 521.3999999999999L943.55 686.6499999999999L701.9 715.2999999999998L600 936.25L498.1 715.25L256.45 686.65L435.1 521.4000000000001L387.65 282.75L600 401.6z" /></font></defs></svg>

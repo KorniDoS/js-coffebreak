@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "name": "Cappuccino",
+        "img": "./assets/product-images/cappuccino.jpg",
+        "price": "8$",
+        "quantity": "10",
+        "description": "Cappuccino is an espresso-based coffee drink that originated in Austria with later development taking place in Italy, and is prepared with steamed milk foam (microfoam). Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder. ",
+        "rating": "5",
+        "comments": [
+            {
+                "id": 1,
+                "user": "Andrei Popescu",
+                "comment": "lorem ipsum",
+                "comment_date": "24/March/2022"
+            },
+            {
+                "id": 2,
+                "user": "Maria Adam",
+                "comment": "lorem ipsum 2",
+                "comment_date": "05/February/2022"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Latte",
+        "img": "./assets/product-images/latte.jpg",
+        "price": "10$",
+        "quantity": "5",
+        "description": "Caffè latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk. Variants include the chocolate-flavored mocha or replacing the coffee with another beverage base such as masala chai (spiced Indian tea), mate, matcha, turmeric, or rooibos; other types of milk, such as soy milk or almond milk, are also used.",
+        "rating": "4.9",
+        "comments": [ {
+            "id": 1,
+            "user": "Andrei Popescu",
+            "comment": "lorem ipsum",
+            "comment_date": "24/March/2022"
+        },
+        {
+            "id": 2,
+            "user": "Maria Adam",
+            "comment": "lorem ipsum 2",
+            "comment_date": "05/February/2022"
+        }]
+    },
+    {
+        "id": 3,
+        "name": "Doppio",
+        "img": "./assets/product-images/doppio.jpg",
+        "quantity": "20",
+        "price": "5$",
+        "description": "Doppio espresso is a double shot which is extracted using double the amount of ground coffee in a larger-sized portafilter basket.",
+        "rating": "3.2",
+        "comments": []
+    },
+    {
+        "id": 4,
+        "name": "Cortado",
+        "quantity": "3",
+        "img": "./assets/product-images/cortado.jpg",
+        "price": "6$",
+        "description": "Cortado is a beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity. The milk in a cortado is steamed, but not frothy and \"texturized\" as in many Italian coffee drinks. The cortado comes from Spain, most likely Madrid, where it is commonly served.",
+        "rating": "4",
+        "comments": []
+    },
+    {
+        "id": 5,
+        "name": "Macchiato",
+        "quantity": "8",
+        "img": "./assets/product-images/machiatto.jpg",
+        "price": "3.5$",
+        "description": "Caffè macchiato, sometimes called espresso macchiato, is an espresso coffee drink with a small amount of milk, usually foamed. In Italian, macchiato means \"stained\" or \"spotted, so the literal translation of caffè macchiato is \"stained coffee\" or \"marked coffee",
+        "rating": "3.5",
+        "comments": [ {
+            "id": 1,
+            "user": "Andrei Popescu",
+            "comment": "lorem ipsum",
+            "comment_date": "24/March/2022"
+        }
+   ]
+    },
+    {
+        "id": 6,
+        "name": "Espresso",
+        "quantity": "7",
+        "img": "./assets/product-images/espresso.jpg",
+        "price": "4.5$",
+        "description": "Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water (about 90 °C or 190 °F) is forced under 9–10 bars (900–1,000 kPa; 130–150 psi) of pressure through finely-ground coffee beans.",
+        "rating": "4.1",
+        "comments": []
+    },
+    {
+        "id": 7,
+        "name": "Irish",
+        "quantity": "1",
+        "img": "./assets/product-images/irish.jpg",
+        "price": "5.25$",
+        "description": "Irish coffee is a caffeinated alcoholic drink consisting of Irish whiskey, hot coffee, and sugar, stirred, and topped with cream. The coffee is drunk through the cream. ",
+        "rating": "5",
+        "comments": []
+    },
+    {
+        "id": 8,
+        "name": "Lungo",
+        "quantity": "2",
+        "img": "./assets/product-images/lungo.jpg",
+        "price": "3.5$",
+        "description": "Lungo (Italian for \"long\") is a coffee beverage made by using an espresso machine to make an Italian-style coffee – short black (a single espresso shot) with more water (generally twice as much), resulting in a larger coffee, a lungo. ",
+        "rating": "4",
+        "comments": []
+    },
+    {
+        "id": 9,
+        "name": "Red Eye",
+        "quantity": "4",
+        "img": "./assets/product-images/red-eye.jpg",
+        "price": "3.5$",
+        "description": "Red eye coffee is a coffee drink that combines drip coffee with one or two shots of espresso. The name likely refers to taking a “red eye flight,” an airline flight that's overnight, causing the passengers to have tired red eyes.",
+        "rating": "4",
+        "comments": [
+            {
+                "id": 1,
+                "user": "Andrei Ionescu",
+                "comment": "lorem ipsum",
+                "comment_date": "24/March/2022"
+            }
+      
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Americano",
+        "quantity": "12",
+        "img": "./assets/product-images/americano.jpg",
+        "price": "3.5$",
+        "description": "Caffè Americano (also known as Americano or American) is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added. The name is also spelled with varying capitalization and use of diacritics: e.g., café americano. ",
+        "rating": "4.2",
+        "comments": []
+    }
+]
